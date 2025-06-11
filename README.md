@@ -6,7 +6,7 @@ All the data for sets and moves is gathered in JSON files which have been genera
 
 Pokémon genders and abilities are randomly generated, whereas IVs are fixed but depend on current streak of defeated trainers. Battle Factory trainers use Pokémon from this same roster, but are not tied to any set of Pokémon. Battle Hall trainers use completely different sets. See [this page](https://bulbapedia.bulbagarden.net/wiki/List_of_Battle_Frontier_Trainers_in_Generation_IV) for further details on Gen 4 Battle Frontier trainers.
 
-Future plans on this project include
+Future plans on this project include:
 - Adding the range of consecutive battles won in which every trainer can appear.
 - Improving the overall look and design of the page.
 - Implementing more complex search filters.
