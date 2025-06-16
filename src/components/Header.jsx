@@ -7,7 +7,7 @@ const Header = () => {
 
         </div>
         <div id="title">
-            <img src="./src/assets/icon.png"/>
+            <img src="icon.png"/>
             GEN 4 BATTLE FRONTIER DEX
         </div>
         <div>
