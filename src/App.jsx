@@ -41,9 +41,13 @@ const App = () => {
     <>
       <Header />
       <SearchBar search={search} setSearch={setSearch} />
-      {search.trim().length > 1 && filteredSets.length > 0 && (
-        <Table rows={filteredSets} columns={Object.keys(setsData[0]).slice(1)} /> // Object.keys(setsData[0]) devuelve ["Pokémon", "Item", ...]
-      )} {/* condición && (lo que ocurre si se verifica la condición) */}
+      <Table 
+        rows={(search.trim().length > 1 && filteredSets.length > 0) ? filteredSets : []}
+        columns={Object.keys(setsData[0]).slice(1)} // Object.keys(setsData[0]) devuelve ["#", "Pokémon", "Item", ...]
+      />
+      {/* {search.trim().length > 1 && filteredSets.length > 0 && (
+        <Table rows={filteredSets} columns={Object.keys(setsData[0]).slice(1)} /> 
+      )} condición && (lo que ocurre si se verifica la condición) */}
     </>
   );
 };

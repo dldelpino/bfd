@@ -1,15 +1,11 @@
-@import url("https://fonts.googleapis.com/css?family=Martian+Mono");
+/* @import url("") */
+@import url("https://fonts.googleapis.com/css2?family=Martian+Mono");
 
 * { /* se aplica a la página entera */
-  font-family: Martian Mono, Calibri, sans-serif; 
+  font-family: "Martian Mono", Calibri, sans-serif; 
   background-color: white;
   margin: 0px;
   padding: 0px;
-  font-size: 18px;
-}
-
-body {
-  margin-bottom: 30px; /* espacio al final de la página */
 }
 
 html {
@@ -38,20 +34,36 @@ header {
   padding-top: 10px;
   padding-bottom: 10px;
   border-bottom: 1px solid black;
-  box-shadow: 0px 3px lightgray;
+  box-shadow: 0px 2px lightgray;
 }
 
 #title {
   display: flex;
   gap: 10px;
-  font-style: oblique;
   align-items: center;
   font-weight: bold;
   background-color: inherit;
+  font-size: 22px;
 }
 
 #title img {
   width: 50px;
+  background-color: inherit;
+}
+
+#github-icon {
+  display: flex;
+  align-items: center;
+  background-color: inherit;
+}
+
+#github-icon img {
+  width: 30px;
+  background-color: inherit;
+  margin-right: 20px;
+}
+
+#github-icon a {
   background-color: inherit;
 }
 
