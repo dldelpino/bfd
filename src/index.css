@@ -63,6 +63,11 @@ header {
   margin-right: 20px;
 }
 
+#github-icon img:hover {
+  transform: scale(1.1);
+}
+
+
 #github-icon a {
   background-color: inherit;
 }
