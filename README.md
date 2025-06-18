@@ -1,4 +1,4 @@
-# Gen 4 Battle Frontier Dex
+# Battle Frontier Pokédex
 
 This project consists on an interactive database which collects every Pokémon set that can be used by Gen 4 Battle Frontier trainers, with a search bar that allows filtering the sets by move, item, Pokémon name, nature, trainer name or trainer class. 
 
